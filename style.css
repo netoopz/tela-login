@@ -1,0 +1,108 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.container-p {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(39, 39, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.container-side-login {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.text-singup {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 52px;
+    color: wheat;
+    padding: 10px;
+}
+
+.sociais {
+    margin-top: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.icons {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-input {
+    width: 60%;
+    padding: 5px;
+    background-image: url(img/people.png);
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+
+.nome-input:focus {
+    border: 2px solid #3613b4cc;
+    transition: 0.4s;
+    background-image: none;
+  }
+
+.ja-tem-conta {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.texto-login {
+    color: wheat;
+    align-items: center;
+    text-align: center;
+}
+
+.sucesso-cadastro {
+    background-color: greenyellow;
+}
+
+.close-msg {
+    cursor: pointer;
+}
